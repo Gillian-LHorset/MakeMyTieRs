@@ -1,6 +1,6 @@
 fn main() -> eframe::Result {
     eframe::run_native(
-        "MakeMyTieR",
+        "MakeMyTieRs",
         eframe::NativeOptions::default(),
         Box::new(|_cc| Ok(Box::new(MyApp::default()))),
     )

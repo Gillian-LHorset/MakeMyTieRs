@@ -1,14 +1,15 @@
-# MakeMyTieR
+# MakeMyTieRs
 
-![MakeMyTieR Logo](MakeMyTieR-Logo.png)
+![MakeMyTieRs Logo](MakeMyTieR-Logo.png)
 
 ---
 
-MakeMyTieR est une application de création de tier lists faite en Rust avec Egui.
+MakeMyTieRs est une application de création de tier lists faite en Rust avec Egui.
 
 ## Installation
 
 ### 1. Installe MSYS2, qui fournit l'environnement MinGW :
+
 ```bash
 winget install MSYS2.MSYS2
 ```
@@ -20,8 +21,9 @@ pacman -Syu
 pacman -S mingw-w64-x86_64-toolchain
 ```
 
-### 3. Ajoute ce répertoire au PATH Windows. 
-Paramètres → Variables d'environnement → Path → Nouveau : ``C:\msys64\mingw64\bin``.
+### 3. Ajoute ce répertoire au PATH Windows.
+
+Paramètres → Variables d'environnement → Path → Nouveau : `C:\msys64\mingw64\bin`.
 
 ### 4. Installe rustup :
 
@@ -38,13 +40,16 @@ rustup set default-host x86_64-pc-windows-gnu
 ```
 
 ### 6. Vérifie :
+
 ```bash
 rustc -vV
 ```
+
 Le host: de rustc doit afficher x86_64-pc-windows-gnu.
 
 ### 7. Teste avec ton projet :
+
 ```bash
-cd C:\Users\pq60soi\Desktop\MakeMyTieR\MakeMyTieR
+cd C:\Users\pq60soi\Desktop\MakeMyTieRs\MakeMyTieRs
 cargo run
 ```
