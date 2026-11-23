@@ -1,3 +1,5 @@
+mod structurs;
+
 fn main() -> eframe::Result {
     eframe::run_native(
         "MakeMyTieRs",
@@ -6,6 +8,17 @@ fn main() -> eframe::Result {
     )
 }
 
+enum Screen {
+    Home,
+    Editor,
+}
+
+impl Default for Screen {
+    fn default() -> Self {
+        Screen::Home
+    }
+}
+ 
 #[derive(Default)]
 struct MakeMyTieRs {}
 

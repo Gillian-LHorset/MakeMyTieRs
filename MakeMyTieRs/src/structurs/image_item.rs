@@ -1,6 +1,7 @@
-use std::path::Path;
+use std::path::PathBuf;
 
+#[derive(Default)]
 pub struct ImageItem {
-    pub id: int32,
-    pub relative_path: Path
+    pub id: i32,
+    pub relative_path: PathBuf
 }

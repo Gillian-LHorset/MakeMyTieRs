@@ -1,4 +1,7 @@
+use crate::structurs::image_item::ImageItem;
+
+#[derive(Default)]
 pub struct TierRow {
-    pub name: string,
+    pub label: String,
     pub images: Vec<ImageItem>
 }
