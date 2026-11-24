@@ -1,6 +1,6 @@
 # MakeMyTieRs
 
-![MakeMyTieRs Logo](MakeMyTieR-Logo.png)
+![MakeMyTieRs Logo](./Ressources/MakeMyTieRs-Logo.png)
 
 ---
 
