@@ -4,4 +4,3 @@ use crate::structurs::tier_row::TierRow;
 pub struct TierList {
     pub rows: Vec<TierRow>,
 }
-
