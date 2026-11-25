@@ -19,7 +19,7 @@
 
 Les fichier de stockage en `.mmt` sont simplement un json et un dossier d'image mis ensemble à l'aide de tar et renommé.
 
-Arborescences des fichiers .mmt :
+### Arborescences des fichiers .mmt :
 
 ```
 structure.json

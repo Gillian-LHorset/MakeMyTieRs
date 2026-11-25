@@ -7,3 +7,4 @@ edition = "2024"
 eframe = "0.37.0"
 egui = "0.37.0"
 egui_extras = { version = "0.37.0", features = ["all_loaders"] }
+serde = "1.0.229"

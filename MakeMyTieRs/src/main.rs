@@ -29,7 +29,7 @@ impl eframe::App for MakeMyTieRs {
     fn ui(&mut self, ui: &mut egui::Ui, _frame: &mut eframe::Frame) {
         egui::CentralPanel::default().show(ui, |ui| {
             ui.add(
-                egui::Image::from_bytes( 
+                egui::Image::from_bytes(
                     "logo.png",
                     include_bytes!("../../Ressources/MakeMyTieRs-Logo.png"),
                 )
