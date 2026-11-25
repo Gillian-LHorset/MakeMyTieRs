@@ -1,15 +1,19 @@
 {
-    "name": "Chocolats",
-    "rows": [
+  "name": "Chocolats",
+  "rows": [
+    {
+      "name": "S",
+      "color": "eb3434",
+      "images": [
         {
-            "name": "S",
-            "color": "eb3434",
-            "images": [
-                "hash": string
-            ]
+          "hash": "7efc38954460af473d191cb2c77566c4e4990626c5deda3f8e1917d757c102bb"
         }
-    ],
-    "remaining_images": [
-        "hash": string
-    ]
+      ]
+    }
+  ],
+  "remaining_images": [
+    {
+      "hash": "c07f582489385ed28fd06904c82f8ee3e9c2ede2fc4ef06513ab7dd5325dba78"
+    }
+  ]
 }
