@@ -1,0 +1,15 @@
+{
+    "name": "Chocolats",
+    "rows": [
+        {
+            "name": "S",
+            "color": "eb3434",
+            "images": [
+                "hash": string
+            ]
+        }
+    ],
+    "remaining_images": [
+        "hash": string
+    ]
+}

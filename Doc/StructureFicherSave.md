@@ -23,7 +23,7 @@ Les fichier de stockage en `.mmt` sont simplement un json et un dossier d'image 
 
 ```
 structure.json
-asset/
+assets/
   ├ <hash>.webp
   └ <hash>.webp
 ```
